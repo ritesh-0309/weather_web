@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:#222 ;
+}
+
+.container{
+    background-image: linear-gradient(135deg, #00feba, #5b548a);
+    width: 90%;
+    height: auto;
+    max-width: 440px;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    border-radius: 20px ;
+    margin: 0 5%;
+    transform: translate(-50%,-50%);
+}
+
+.container .search{
+    background-color: #fff;
+    width: 70%;
+    margin: 2% 15%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.container .search input{
+    width: 90%;
+    height: 5vh;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-right: 3px solid #000;
+    border-image:linear-gradient(to bottom, #fff 30%, #3b8da9 50%)  11% repeat ;
+    font-size: 1rem;
+    padding:  5px 5px 5px 15px;
+}
+
+.container .search button{
+    width: 15%;;
+    outline: none;
+    cursor: pointer;
+    background-color:transparent;
+    border: none;
+    font-size: 1.4rem;
+}
+
+.container .search button:active{
+    scale: 0.95;
+}
+
+.container .images{
+    display: flex;
+    justify-content: center;
+}
+
+.container .images img{
+    width: 150px;
+    pointer-events: none;
+    height: 150px;
+}
+
+.container .temp{
+    color: #fff;
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.container .city{
+    color: #fff;
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.container .other-details{
+    display: flex;
+    margin: 5% 10%;
+}
+
+.container .other-details .humidity{
+    width: 90%;
+    margin-left: 10%;
+    max-width: 200px;
+    display: flex;
+}
+
+.container .other-details .humidity img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.container .other-details .humidity .humidity-details h3{
+    color: white;
+}
+.container .other-details .humidity .humidity-details p{
+    color: white;
+}
+
+
+.container .other-details .wind-speed{
+    width: 90%;
+    margin-left: 10%;
+    max-width: 200px;
+    display: flex;
+}
+
+
+.container .other-details .wind-speed img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.container .other-details .wind-speed  .wind-speed-details h3{
+    color: white;
+}
+.container .other-details .wind-speed  .wind-speed-details p{
+    color: white;
+}

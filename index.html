@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="search" name="search"  placeholder="Enter City Name">
+            <button id="srch"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="images"><img src="images/clouds.png" alt="img"  class="image-icon"></div>
+        <div class="temp"><h1>22°c</h1></div>
+        <div class="city"><p>New York</p></div>
+        <div class="other-details">
+            <div class="humidity">
+                <img src="images/humidity.png" alt="humidity">
+                <div class="humidity-details">
+                    <h3 class="humidity-percentage">80%</h3>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind-speed">
+                <img src="images/wind.png" alt="wind-speed">
+                <div class="wind-speed-details">
+                    <h3 class="windSpeed">80 km/h</h3>
+                    <p>wind-speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
